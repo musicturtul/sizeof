@@ -10,6 +10,11 @@
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	int newArray[] = {4, 2, 6, 9};
+
+	for (int i = 0; i < 4; i++) {
+		cout << newArray[i] << " " << flush;
+	}
+
 	return 0;
 }
